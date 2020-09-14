@@ -5,4 +5,13 @@ Step 2:Search for @botfather in Telegram.
 step 3:Create the bot by running /newbot command.
 step 4:Enter the Display Name and User Name for the bot.
        BotFather will send a message with the token.
-step 5:
+step 5:Now we will code to craete a telegrambot.
+       1.We will write a Python script which will communicate with Telegram service periodically using API call getUpdates.
+       2.To communicate with Telegram API we are going to use python library called telepot.
+       3.For code refer PRAC_1
+       4.After executing PRAC_1 code, we will receive something like this:
+            {'id': 1178748794, 'is_bot': True, 'first_name': 'AS', 'username': 'Al25bot', 'can_join_groups': True, 'can_read_all_group_messages': False, '
+            supports_inline_queries': False}
+       5. here we made our API , call getMe to Telegram which returns information about bot such as its username, bot id etc.
+       6.Now we will add newly created bot to our telegram contact list and start conversation by sending /start.
+       
