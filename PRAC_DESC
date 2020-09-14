@@ -13,5 +13,8 @@ step 5:Now we will code to craete a telegrambot.
             {'id': 1178748794, 'is_bot': True, 'first_name': 'AS', 'username': 'Al25bot', 'can_join_groups': True, 'can_read_all_group_messages': False, '
             supports_inline_queries': False}
        5. here we made our API , call getMe to Telegram which returns information about bot such as its username, bot id etc.
-       6.Now we will add newly created bot to our telegram contact list and start conversation by sending /start.
+       6.Now we will add newly created bot to our telegram contact list and start conversation by sending /start  and bot will reply.
+       7.Now for sending message we will use following url:
+           https://api.telegram.org/bot<your-bot-token>/sendMessage?chat_id=<chat-id>&text=TestReply
+           
        
